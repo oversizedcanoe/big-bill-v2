@@ -9,6 +9,8 @@ export class Deck {
             }
         }
 
+        this.cards.reverse();
+
         if (jokersIncluded) {
             this.cards.push(new Joker());
             this.cards.push(new Joker());
